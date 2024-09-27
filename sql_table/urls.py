@@ -22,4 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('insert_country/',insert_country,name='insert_country'),
     path('insert_capital/',insert_capital,name='insert_capital'),
+    path('insert_ct/',insert_ct,name='insert_ct'),
+    path('ctry/',ctry,name='ctry'),
+    path('cpt/',cpt,name='cpt'),
 ]

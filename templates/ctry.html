@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Country Table</h1>
+        <table border="3px">
+            <tr>
+                <th>Cname</th>>
+            </tr>
+        {% for CO in countries %}
+            <tr>
+                <td>{{CO.cname}}</td>
+            </tr>
+        {% endfor %}
+        </table>
+    </center>
+</body>
+</html>
